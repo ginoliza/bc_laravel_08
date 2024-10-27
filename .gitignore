@@ -1,0 +1,46 @@
+/node_modules
+/vendor
+
+# Laravel environment files
+.env
+.env.backup
+.env.*.backup
+
+# Laravel specific storage and cache
+/storage/*.key
+/public/storage
+/storage/logs/*
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# Cache files
+.phpunit.result.cache
+/bootstrap/cache/*.php
+
+# IDE and system files
+/.vscode
+/.idea
+.DS_Store
+Thumbs.db
+
+# Composer dependencies and logs
+composer.phar
+composer.lock
+
+# NPM/Yarn/PNPM logs and debug files
+yarn.lock
+pnpm-lock.yaml
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Laravel Mix files
+/public/hot
+/public/css/*.map
+/public/js/*.map
+/public/mix-manifest.json
+
+# Other
+*.log
+*.swp
